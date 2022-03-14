@@ -8,8 +8,8 @@ package txscript
 import (
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/TrueNodes/btcd/chaincfg/chainhash"
+	"github.com/TrueNodes/btcd/wire"
 )
 
 // TestBadPC sets the pc to a deliberately bad result then confirms that Step

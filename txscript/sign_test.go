@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/TrueNodes/btcd/btcec/v2"
+	"github.com/TrueNodes/btcd/btcutil"
+	"github.com/TrueNodes/btcd/chaincfg"
+	"github.com/TrueNodes/btcd/chaincfg/chainhash"
+	"github.com/TrueNodes/btcd/wire"
 )
 
 type addressToKey struct {

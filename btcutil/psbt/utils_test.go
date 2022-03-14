@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/TrueNodes/btcd/chaincfg/chainhash"
+	"github.com/TrueNodes/btcd/wire"
 )
 
 func TestSumUtxoInputValues(t *testing.T) {

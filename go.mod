@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcd
+module github.com/TrueNodes/btcd
 
 require (
 	github.com/TrueNodes/btcd/btcec/v2 v2.1.1
@@ -23,7 +23,7 @@ require (
 	github.com/kkdai/bstream v0.0.0-20161212061736-f391b8402d23 // indirect
 )
 
-replace github.com/btcsuite/btcd/btcutil => ./btcutil
+replace github.com/TrueNodes/btcd/btcutil => ./btcutil
 
 // The retract statements below fixes an accidental push of the tags of a btcd
 // fork.

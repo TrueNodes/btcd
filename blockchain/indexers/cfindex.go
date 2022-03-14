@@ -7,14 +7,14 @@ package indexers
 import (
 	"errors"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/btcutil/gcs"
-	"github.com/btcsuite/btcd/btcutil/gcs/builder"
+	"github.com/TrueNodes/btcd/blockchain"
+	"github.com/TrueNodes/btcd/btcutil"
+	"github.com/TrueNodes/btcd/btcutil/gcs"
+	"github.com/TrueNodes/btcd/btcutil/gcs/builder"
+	"github.com/TrueNodes/btcd/chaincfg"
+	"github.com/TrueNodes/btcd/chaincfg/chainhash"
+	"github.com/TrueNodes/btcd/database"
+	"github.com/TrueNodes/btcd/wire"
 )
 
 const (
