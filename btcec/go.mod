@@ -1,6 +1,6 @@
 module github.com/TrueNodes/btcd/btcec/v2
 
-go 1.17.7
+go 1.17
 
 require (
 	github.com/TrueNodes/chaincfg/chainhash v1.0.0

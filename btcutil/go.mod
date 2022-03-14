@@ -1,6 +1,6 @@
 module github.com/TrueNodes/btcd/btcutil
 
-go 1.17.7
+go 1.17
 
 require (
 	github.com/aead/siphash v1.0.1
