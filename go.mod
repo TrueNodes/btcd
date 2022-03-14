@@ -1,9 +1,9 @@
-module github.com/btcsuite/btcd
+module github.com/msvprogs/btcd
 
 require (
-	github.com/btcsuite/btcd/btcec/v2 v2.1.1
-	github.com/btcsuite/btcd/btcutil v1.1.0
-	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.0
+	github.com/msvprogs/btcd/btcec/v2 v2.1.1
+	github.com/msvprogs/btcd/btcutil v1.1.0
+	github.com/msvprogs/btcd/chaincfg/chainhash v1.0.0
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
 	github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd
 	github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792
@@ -23,7 +23,7 @@ require (
 	github.com/kkdai/bstream v0.0.0-20161212061736-f391b8402d23 // indirect
 )
 
-replace github.com/btcsuite/btcd/btcutil => ./btcutil
+replace github.com/msvprogs/btcd/btcutil => ./btcutil
 
 // The retract statements below fixes an accidental push of the tags of a btcd
 // fork.
