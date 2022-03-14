@@ -4,7 +4,7 @@ go 1.17.7
 
 require (
 	github.com/aead/siphash v1.0.1
-	github.com/TrueNodes/btcd v0.22.0-beta.0.20220111032746-97732e52810c
+	github.com/TrueNodes/btcd v0.22.1-beta
 	github.com/TrueNodes/btcd/btcec/v2 v2.1.1
 	github.com/TrueNodes/btcd/chaincfg/chainhash v1.0.0
 	github.com/davecgh/go-spew v1.1.1
