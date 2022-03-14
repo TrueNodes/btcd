@@ -1,13 +1,13 @@
 module github.com/TrueNodes/btcd
 
 require (
-	github.com/TrueNodes/btcd/btcec/v2 v2.1.1
-	github.com/TrueNodes/btcd/btcutil v1.1.0
-	github.com/TrueNodes/btcd/chaincfg/chainhash v1.0.0
-	github.com/TrueNodes/btclog v0.0.0-20170628155309-84c8d2346e9f
-	github.com/TrueNodes/go-socks v0.0.0-20170105172521-4720035b7bfd
-	github.com/TrueNodes/websocket v0.0.0-20150119174127-31079b680792
-	github.com/TrueNodes/winsvc v1.0.0
+	github.com/TrueNodes/btcd/btcec/v2
+	github.com/TrueNodes/btcd/btcutil
+	github.com/TrueNodes/btcd/chaincfg/chainhash
+	github.com/TrueNodes/btclog
+	github.com/TrueNodes/go-socks
+	github.com/TrueNodes/websocket
+	github.com/TrueNodes/winsvc
 	github.com/davecgh/go-spew v1.1.1
 	github.com/decred/dcrd/lru v1.0.0
 	github.com/jessevdk/go-flags v1.4.0

@@ -3,10 +3,10 @@ module github.com/TrueNodes/btcd/btcutil/psbt
 go 1.17
 
 require (
-	github.com/TrueNodes/btcd v0.22.2-beta
-	github.com/TrueNodes/btcd/btcec/v2 v2.1.1
-	github.com/TrueNodes/btcd/btcutil v1.1.0
-	github.com/TrueNodes/btcd/chaincfg/chainhash v1.0.0
+	github.com/TrueNodes/btcd
+	github.com/TrueNodes/btcd/btcec/v2
+	github.com/TrueNodes/btcd/btcutil
+	github.com/TrueNodes/btcd/chaincfg/chainhash
 	github.com/davecgh/go-spew v1.1.1
 )
 
